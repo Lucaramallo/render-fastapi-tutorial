@@ -74,6 +74,40 @@ Para más información, se puede leer el documento en el siguiente [enlace](http
 ![image](images/logs.jpg)
 8. Entrar al enlace de arriba a la izquierda:
 ![image](images/enlace.jpg)
-9. Nos va a direccionar a nuestra API. Si les aparece un "Not found", no se preocupen, agreguenle un /docs a su enlace.
+
+
+
+# Para Avtivar la api de manera local:
+
+
+Luca@nootebookluca MINGW64 /d/Data Scientist/CURSADO HENRY DTS09/PI PT02 - Def/PI1_MLOps_Sistema_de_Recomendacion_Movies_ML (main)
+$ venv\Scripts\activate.bat
+bash: venvScriptsactivate.bat: command not found
+
+Luca@nootebookluca MINGW64 /d/Data Scientist/CURSADO HENRY DTS09/PI PT02 - Def/PI1_MLOps_Sistema_de_Recomendacion_Movies_ML (main)
+$ cd venv
+
+Luca@nootebookluca MINGW64 /d/Data Scientist/CURSADO HENRY DTS09/PI PT02 - Def/PI1_MLOps_Sistema_de_Recomendacion_Movies_ML/venv (main)
+$ dir
+Include  Lib  Scripts  pyvenv.cfg
+
+Luca@nootebookluca MINGW64 /d/Data Scientist/CURSADO HENRY DTS09/PI PT02 - Def/PI1_MLOps_Sistema_de_Recomendacion_Movies_ML/venv (main)
+$ cd Scripts
+
+Luca@nootebookluca MINGW64 /d/Data Scientist/CURSADO HENRY DTS09/PI PT02 - Def/PI1_MLOps_Sistema_de_Recomendacion_Movies_ML/venv/Scripts (main)
+$ dir
+Activate.ps1  activate  activate.bat  deactivate.bat  pip.exe  pip3.10.exe  pip3.exe  python.exe  pythonw.exe  uvicorn.exe
+
+Luca@nootebookluca MINGW64 /d/Data Scientist/CURSADO HENRY DTS09/PI PT02 - Def/PI1_MLOps_Sistema_de_Recomendacion_Movies_ML/venv/Scripts (main)
+$ source activate.bat
+bash: @echo: command not found
+bash: rem: command not found
+bash: activate.bat: line 4: syntax error near unexpected token `"tokens=2 delims=:."'
+bash: activate.bat: line 4: `for /f "tokens=2 delims=:." %%a in ('"%SystemRoot%\System32\chcp.com"') do ('
+
+Luca@nootebookluca MINGW64 /d/Data Scientist/CURSADO HENRY DTS09/PI PT02 - Def/PI1_MLOps_Sistema_de_Recomendacion_Movies_ML/venv/Scripts (main)
+$
+
+10. Nos va a direccionar a nuestra API. Si les aparece un "Not found", no se preocupen, agreguenle un /docs a su enlace.
 
 Con todos esos pasos, la API que crearon ya está lista para poder ser consumida!
