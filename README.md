@@ -80,6 +80,7 @@ Para más información, se puede leer el documento en el siguiente [enlace](http
 # Para Avtivar la api de manera local:
 
 ![image](https://github.com/Lucaramallo/render-fastapi-tutorial/assets/95667827/e8246558-cd7c-4403-b09d-fb5579d7c6fe)
+![image](https://github.com/Lucaramallo/render-fastapi-tutorial/assets/95667827/ab05e41b-85f3-4dd3-ad3c-5fc9f83a35dc)
 
 Luca@nootebookluca MINGW64 /d/Data Scientist/CURSADO HENRY DTS09/PI PT02 - Def/PI1_MLOps_Sistema_de_Recomendacion_Movies_ML (main)
 $ venv\Scripts\activate.bat
